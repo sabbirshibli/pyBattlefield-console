@@ -11,19 +11,19 @@ for i in range(5):
 
 
 # printing the matrix board
-def print_board(board2):
+def print_board(board):
     for row in board:
         s = ' '.join(row)
         print(s)
 
 
 # generating random row
-def random_row(board2):
+def random_row(board):
     return randint(0, 4)
 
 
 # generating random column
-def random_column(board2):
+def random_column(board):
     return randint(0, 4)
 
 
